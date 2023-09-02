@@ -120,6 +120,77 @@
       "Duration": "00:00:06",
       "Call Result": "Not Answered"
     },
+
+     {
+      "Time": "8/28/2023 8:58",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+972526477757",
+      "Duration": "00:00:06",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "8/28/2023 8:59",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+972526477757",
+      "Duration": "00:00:08",
+      "Call Result": "Not Answered"
+    },
+    {
+      "Time": "8/28/2023 9:00",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+18669788260",
+      "Duration": "00:00:34",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "8/28/2023 9:01",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+18669788260",
+      "Duration": "00:00:06",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "8/28/2023 9:02",
+      "Direction": "Outgoing",
+      "From Name": "Extension 209",
+      "From Number": "Ext: 209",
+      "To Name": "Extension 227",
+      "To Number": "Ext: 227",
+      "Duration": "00:01:25",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "7/28/2023 9:03",
+      "Direction": "Incoming",
+      "From Name": "Extension 209",
+      "From Number": "Ext: 209",
+      "To Name": "Extension 225",
+      "To Number": "Ext: 225",
+      "Duration": "00:00:26",
+      "Call Result": "Voicemail"
+    },
+    {
+      "Time": "8/28/2023 9:04",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+972526477757",
+      "Duration": "00:00:16",
+      "Call Result": "Answered"
+    },
     {
       "Time": "8/28/2023 8:58",
       "Direction": "Outgoing",
