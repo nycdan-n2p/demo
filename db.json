@@ -1,14 +1,39 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "dids": [
+    {
+      "count": "152",
+      "number": "+19734385885",
+      "avatarColor": "primary",
+      "path": "Daniel Leubitz (User) Direct",
+      "avatarIcon": "bx-mobile-alt"
+    },
+    {
+      "count": "152",
+      "number": "+12172813880",
+      "avatarColor": "success",
+      "path": "Daniel Leubitz (User) Direct",
+      "avatarIcon": "bx-closet"
+    },
+    {
+      "count": "38",
+      "number": "+19734385067",
+      "avatarColor": "info",
+      "path": "Product Mgmt (Ring Group) -> Product Management (Department)",
+      "avatarIcon": "bx-home"
+    },
+    {
+      "count": "36",
+      "number": "Ext: 209",
+      "avatarColor": "secondary",
+      "path": "Daniel Leubitz (User) Direct",
+      "avatarIcon": "bx-football"
+    },
+    {
+      "count": "15",
+      "number": "+12059001866",
+      "avatarColor": "primary",
+      "path": "Product Management (Department) -> Scott Bleasdell (User) Direct",
+      "avatarIcon": "bx-mobile-alt"
+    }
+  ]
 }
