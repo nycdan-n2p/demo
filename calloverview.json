@@ -1,1 +1,44 @@
-
+{
+  "calls": [
+    {
+      "Time": "8/28/2023 8:47",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+972526477757",
+      "Duration": "00:00:06",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "8/28/2023 8:47",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+972526477757",
+      "Duration": "00:00:06",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "8/28/2023 9:03",
+      "Direction": "Outgoing",
+      "From Name": "Extension 209",
+      "From Number": "Ext: 209",
+      "To Name": "Extension 225",
+      "To Number": "Ext: 225",
+      "Duration": "00:00:26",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "8/28/2023 9:04",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+972526477757",
+      "Duration": "00:00:16",
+      "Call Result": "Answered"
+    }
+  ]
+}
