@@ -191,6 +191,97 @@
       "Duration": "00:00:16",
       "Call Result": "Answered"
     },
+
+       {
+      "Time": "6/1/2023 10:15",
+      "Direction": "Incoming",
+      "From Name": "Extension 205",
+      "From Number": "Ext: 205",
+      "To Name": "Extension 209",
+      "To Number": "Ext: 209",
+      "Duration": "00:00:12",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "6/1/2023 11:30",
+      "Direction": "Incoming",
+      "From Name": "Extension 208",
+      "From Number": "Ext: 208",
+      "To Name": "Extension 225",
+      "To Number": "Ext: 225",
+      "Duration": "00:00:45",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "6/15/2023 14:20",
+      "Direction": "Outgoing",
+      "From Name": "Extension 205",
+      "From Number": "Ext: 205",
+      "To Name": "Extension 209",
+      "To Number": "Ext: 209",
+      "Duration": "00:00:18",
+      "Call Result": "Not Answered"
+    },
+    {
+      "Time": "6/20/2023 09:45",
+      "Direction": "Outgoing",
+      "From Name": "Eytan Avigdor",
+      "From Number": "+19734385885",
+      "To Name": "Mobile",
+      "To Number": "+972526477757",
+      "Duration": "00:00:22",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "6/25/2023 16:30",
+      "Direction": "Outgoing",
+      "From Name": "Extension 210",
+      "From Number": "Ext: 210",
+      "To Name": "Extension 225",
+      "To Number": "Ext: 225",
+      "Duration": "00:00:30",
+      "Call Result": "Answered"
+    },
+    {
+      "Time": "7/10/2023 12:45",
+      "Direction": "Incoming",
+      "From Name": "Extension 208",
+      "From Number": "Ext: 208",
+      "To Name": "Extension 225",
+      "To Number": "Ext: 225",
+      "Duration": "00:00:15",
+      "Call Result": "Missed"
+    },
+    {
+      "Time": "7/15/2023 08:30",
+      "Direction": "Incoming",
+      "From Name": "Extension 205",
+      "From Number": "Ext: 205",
+      "To Name": "Extension 209",
+      "To Number": "Ext: 209",
+      "Duration": "00:00:10",
+      "Call Result": "Voicemail"
+    },
+    {
+      "Time": "7/20/2023 14:15",
+      "Direction": "Outgoing",
+      "From Name": "Extension 210",
+      "From Number": "Ext: 210",
+      "To Name": "Extension 225",
+      "To Number": "Ext: 225",
+      "Duration": "00:00:12",
+      "Call Result": "Not Answered"
+    },
+    {
+      "Time": "7/25/2023 11:55",
+      "Direction": "Incoming",
+      "From Name": "Extension 208",
+      "From Number": "Ext: 208",
+      "To Name": "Extension 225",
+      "To Number": "Ext: 225",
+      "Duration": "00:00:28",
+      "Call Result": "Answered"
+    },
     {
       "Time": "8/28/2023 8:58",
       "Direction": "Outgoing",
