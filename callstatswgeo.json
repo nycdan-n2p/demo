@@ -1,1 +1,42 @@
-{"series": [53, 12, 5], "labels": ["Answered", "Missed", "Blocked"], "colors": ["currentTheme.surface"]}
+{
+  "callTypes": [
+    {
+      "label": "Answered",
+      "count": 53,
+      "color": "#44D7B6"
+    },
+    {
+      "label": "Missed",
+      "count": 12,
+      "color": "#FF4560"
+    },
+    {
+      "label": "Blocked",
+      "count": 5,
+      "color": "#775DD0"
+    }
+    // ... other call types
+  ],
+  "hourlyCalls": [
+    {
+      "hour": "00:00",
+      "count": 10
+    },
+    {
+      "hour": "01:00",
+      "count": 15
+    }
+    // ... other hours
+  ],
+  "topNumbers": [
+    {
+      "number": "+19734385885",
+      "count": 20
+    },
+    {
+      "number": "+972526477757",
+      "count": 15
+    }
+    // ... other numbers
+  ]
+}
