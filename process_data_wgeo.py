@@ -1,38 +1,49 @@
 import csv
-import json
+import requests
 
-def extract_data_from_csv(csv_file):
-    with open(csv_file, 'r') as file:
-        reader = csv.DictReader(file)
-        data_list = [row for row in reader]
-    return data_list
+# Load the CDR data from a CSV file
+def load_cdr_data(csv_file_path):
+    cdr_data = []
+    with open(csv_file_path, 'r') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            cdr_data.append(row)
+    return cdr_data
 
-def transform_to_desired_format(data):
-    series = []
-    labels = ["Answered", "Missed", "Blocked"]
-    colors = ["#ff0000", "#00ff00", "#0000ff"]  # You can update these values to your desired colors
+# Group CDR data by state and count calls
+def group_cdr_by_state(cdr_data):
+    calls_by_state = {}
+    for record in cdr_data:
+        state = record['State']
+        calls = calls_by_state.get(state, 0)
+        calls += 1
+        calls_by_state[state] = calls
+    return calls_by_state
 
-    answered_calls = sum(1 for call in data if call['Call Result'] == 'Answered')
-    missed_calls = sum(1 for call in data if call['Call Result'] == 'Missed')
-    blocked_calls = sum(1 for call in data if call['Call Result'] == 'Blocked')
+# Fetch flag icons for each state
+def fetch_flag_icons(calls_by_state):
+    flag_icons = {}
+    for state in calls_by_state.keys():
+        icon_url = f"https://raw.githubusercontent.com/oxguy3/flags/master/iso/{state}.png"
+        flag_icons[state] = icon_url
+    return flag_icons
 
-    series.extend([answered_calls, missed_calls, blocked_calls])
-
-    return {
-        "series": series,
-        "labels": labels,
-        "colors": colors
+# Save the call statistics data to a JSON file
+def save_call_stats_to_json(calls_by_state, flag_icons, output_file):
+    call_stats = {
+        "callsByState": calls_by_state,
+        "flagIcons": flag_icons
     }
+    with open(output_file, 'w') as jsonfile:
+        json.dump(call_stats, jsonfile, indent=2)
 
-def main():
-    csv_file = 'call-history_all-calls_on-8_28_2023.csv'
-    json_file = 'callstatswgeo.json'
+if __name__ == '__main__':
+    cdr_file_path = 'path/to/your/cdr/file.csv'
+    output_json_file = 'call_stats_data.json'
 
-    data = extract_data_from_csv(csv_file)
-    transformed_data = transform_to_desired_format(data)
+    cdr_data = load_cdr_data(cdr_file_path)
+    calls_by_state = group_cdr_by_state(cdr_data)
+    flag_icons = fetch_flag_icons(calls_by_state)
+    save_call_stats_to_json(calls_by_state, flag_icons, output_json_file)
 
-    with open(json_file, 'w') as file:
-        json.dump(transformed_data, file, indent=4)
-
-if __name__ == "__main__":
-    main()
+    print("Call statistics data has been generated and saved to", output_json_file)
